@@ -17,10 +17,15 @@
 	The h1 tag is an element to be used as a header for the text. It is best to use one h1 tag per page.
 
     5. Name two tags that have required attributes
-	class and id
+	img and anchor tag
 
     6. What do we put in the head of our HTML document? 
+	<!DOCTYPE html>
+	<html>
 	<head>
+	  <title>Title of the document</title>
+	</head>
+
 
     7. What is an id? 
 	A selector
@@ -59,7 +64,7 @@
 	h2{}
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-	A class can be used multiple times in the page to identify multiple elements, while an ID is used to identify one element. 
+	A class can be used multiple times in the page to identify multiple elements, while an ID is used to identify one 	element. 
 	EX: #1 {
 	color: black;
 	}
@@ -74,10 +79,10 @@
 	With just "p"
 
     22. What is a parent child selector? When would this be useful? 
-	Parent and child selectors are used to style all the elements nested in a parent element, 	and the child selector is there to change that one specific element. This can be useful so 	you don't have to change each element one by one, and in case there are 10, 9 need to be 	black and one blue, you can use the parent child selector to make the changes.
+	Parent and child selectors are used to style all the elements nested in a parent element, 	and the child selector is there to change that one specific element. This can be useful so you don't have to change each element one by one, and in case there are 10, 9 need to be black and one blue, you can use the parent child selector to make the changes.
 
     23. How do you select all links within a div with the class of sidebar?
-	a:div{}	
+	.sidebar div a{}	
 
     24. What is a pseudo selector?
 	Selects elements in specific state
@@ -91,10 +96,9 @@
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 	*{
 	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
 	}
-	text-transform: lowercase
-	text-transform: capitalize
-
     28. How do I add a 1px border around my div that is dotted and black?
 
 	div{
@@ -133,9 +137,9 @@
 
 	3. Clone my repo
 
-	4. Create a new branch (git checkout -b 'firstname-lastname'
+	4. Create a new branch (git checkout -b 'firstname-lastname')
 
-	5. Push new brand to GitHub and make all future pushes to that branch (git push -u origin 	firstname-lastname)
+	5. Push new branch to GitHub and make all future pushes to that branch (git push -u origin 	firstname-lastname)
 
 	6. Add my TL as a reviewer on the Pull Request
 
