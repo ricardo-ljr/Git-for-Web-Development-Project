@@ -19,8 +19,6 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
   - [ ] Add your TL as a reviewer on the Pull-Request
 - [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
-  Here's my change
-
 ## Part Two:
 
 1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100

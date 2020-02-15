@@ -28,7 +28,7 @@
 
 
     7. What is an id? 
-	A selector
+	A selector - I made a change here
 
     8. What elements can I add an id to? 
 	Any element, as long as it's in only one
